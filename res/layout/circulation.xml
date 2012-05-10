@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="wrap_content">
+        <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/bookid" android:textSize="50dp" android:text="bookinfo"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="책 ID : " android:layout_width="wrap_content" android:id="@+id/book_id" android:textSize="20dp"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="제목 : " android:layout_width="wrap_content" android:id="@+id/title" android:textSize="20dp"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="저자 : " android:layout_width="wrap_content" android:id="@+id/author" android:textSize="20dp"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="출판사 : " android:layout_width="wrap_content" android:id="@+id/publisher" android:textSize="20dp"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="대출 가능 여부 : " android:layout_width="wrap_content" android:id="@+id/possible" android:textSize="20dp"></TextView>
+		<TextView android:layout_height="wrap_content" android:text="대출기간 : " android:layout_width="wrap_content" android:id="@+id/starttime" android:textSize="20dp"></TextView>
+		<TextView android:layout_height="wrap_content" android:text="반납기간 : " android:layout_width="wrap_content" android:id="@+id/endtime" android:textSize="20dp"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:orientation="horizontal" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="대출" android:textSize="30dp" android:id="@+id/button_borrow"></Button>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="반납" android:textSize="30dp" android:id="@+id/button_return"></Button>
+    </LinearLayout>
+</LinearLayout>

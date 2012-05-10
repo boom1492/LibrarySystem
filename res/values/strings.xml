@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">This is LibrarySystem\'s Main Activity!!</string>
+    <string name="app_name">LibrarySystem</string>
+    <string name="hour_prompt">Choose</string>
+</resources>

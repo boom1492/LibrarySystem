@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+    	android:key="id"
+    	android:title="학번"
+    	android:summary="학번을 입력하세요."
+    />
+    <EditTextPreference 
+    	android:key="pw"
+    	android:title="비밀번호"
+    	android:summary="비밀번호를 입력하세요."
+    	android:password="true"
+	/>
+	<EditTextPreference 
+		android:key="switchboard"
+		android:title="스위치보드"
+		android:summary="스위치보드를 설정하세요."
+		android:defaultValue="mobilesw.yonsei.ac.kr"
+	/>
+	
+</PreferenceScreen>
